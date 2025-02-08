@@ -1,0 +1,17 @@
+{
+  "main facts about source code file [src/app/pages/catalogue/options/variations/variations.component.html]": {
+    "00. data elements and user transaction / API endpoint built on elements defined in file [src/app/pages/catalogue/options/variations/variations.component.html]": [
+      {
+        "entities_to_test_list_comment": "",
+        "nb_entities_to_test": 1,
+        "entities_to_test": [
+          {
+            "name": "VariationsListComponent",
+            "full_name": "c:\\CAST-node\\common-data\\upload\\sas\\main_sources\\src\\app\\pages\\catalogue\\options\\variations\\variations.component.ts.VariationsListComponent"
+          }
+        ],
+        "type_of_entity_to_test": "user transaction / API endpoint"
+      }
+    ]
+  }
+}

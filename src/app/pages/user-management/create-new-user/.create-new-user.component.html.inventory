@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [src/app/pages/user-management/create-new-user/create-new-user.component.html]": {
+    "00. file [src/app/pages/user-management/create-new-user/create-new-user.component.html] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "HTML Pages",
+            "elements": [
+              {
+                "name": "create-new-user.component.html",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "create-new-user.component.html",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

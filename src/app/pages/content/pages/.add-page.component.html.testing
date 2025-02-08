@@ -1,0 +1,17 @@
+{
+  "main facts about source code file [src/app/pages/content/pages/add-page.component.html]": {
+    "00. data elements and user transaction / API endpoint built on elements defined in file [src/app/pages/content/pages/add-page.component.html]": [
+      {
+        "entities_to_test_list_comment": "",
+        "nb_entities_to_test": 1,
+        "entities_to_test": [
+          {
+            "name": "AddPageComponent",
+            "full_name": "c:\\CAST-node\\common-data\\upload\\sas\\main_sources\\src\\app\\pages\\content\\pages\\add-page.component.ts.AddPageComponent"
+          }
+        ],
+        "type_of_entity_to_test": "user transaction / API endpoint"
+      }
+    ]
+  }
+}

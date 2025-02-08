@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [src/app/pages/catalogue/types/type-details/type-details.component.html]": {
+    "00. file [src/app/pages/catalogue/types/type-details/type-details.component.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Module",
+                "from_name": "type-details.component.html",
+                "to_name": "type-details.component.ts",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "type-details.component.html",
+                "to_name": "checkCode",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "type-details.component.html",
+                "to_name": "selectLanguage",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "type-details.component.html",
+                "to_name": "goToback",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "type-details.component.html",
+                "to_name": "save",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "src/app/pages/catalogue/types/type-details/type-details.component.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [src/app/pages/content/files/files.component.html]": {
+    "00. file [src/app/pages/content/files/files.component.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Module",
+                "from_name": "files.component.html",
+                "to_name": "files.component.ts",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "files.component.html",
+                "to_name": "openImage",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "files.component.html",
+                "to_name": "removeImage",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "files.component.html",
+                "to_name": "handleUpload",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "files.component.html",
+                "to_name": "copyText",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "src/app/pages/content/files/files.component.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

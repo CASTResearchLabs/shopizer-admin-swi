@@ -1,0 +1,61 @@
+{
+  "main facts about source code file [src/app/pages/shipping/transferlistbox/transferlistbox.component.html]": {
+    "00. file [src/app/pages/shipping/transferlistbox/transferlistbox.component.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "transferlistbox.component.html",
+                "to_name": "toggleRightToLeft",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "transferlistbox.component.html",
+                "to_name": "toggleLeftToRight",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "transferlistbox.component.html",
+                "to_name": "itemSelectedOrUnSelected",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Module",
+                "from_name": "transferlistbox.component.html",
+                "to_name": "transferlistbox.component.ts",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "src/app/pages/shipping/transferlistbox/transferlistbox.component.ts"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Angular Component",
+                "from_name": "transferlistbox.component.html",
+                "to_name": "FilterlistboxComponent",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "src/app/pages/shipping/transferlistbox/filterlistbox/filterlistbox.component.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 2
+      }
+    ]
+  }
+}

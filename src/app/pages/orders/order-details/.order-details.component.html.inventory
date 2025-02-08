@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [src/app/pages/orders/order-details/order-details.component.html]": {
+    "00. file [src/app/pages/orders/order-details/order-details.component.html] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "HTML Pages",
+            "elements": [
+              {
+                "name": "order-details.component.html",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "order-details.component.html",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

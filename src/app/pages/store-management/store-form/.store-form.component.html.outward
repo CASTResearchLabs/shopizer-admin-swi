@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [src/app/pages/store-management/store-form/store-form.component.html]": {
+    "00. file [src/app/pages/store-management/store-form/store-form.component.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "store-form.component.html",
+                "to_name": "goToBack",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "store-form.component.html",
+                "to_name": "onClickRoute",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "store-form.component.html",
+                "to_name": "checkCode",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "store-form.component.html",
+                "to_name": "showRetailers",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "store-form.component.html",
+                "to_name": "userHasSupportedLanguage",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 9,
+            "to_file": "src/app/pages/store-management/store-form/store-form.component.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

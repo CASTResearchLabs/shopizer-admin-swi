@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [src/index.html]": {
+    "00. file [src/index.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Angular Component",
+                "from_name": "index.html",
+                "to_name": "AppComponent",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "src/app/app.component.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

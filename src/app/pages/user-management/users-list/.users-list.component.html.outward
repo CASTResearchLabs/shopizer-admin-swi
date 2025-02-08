@@ -1,0 +1,75 @@
+{
+  "main facts about source code file [src/app/pages/user-management/users-list/users-list.component.html]": {
+    "00. file [src/app/pages/user-management/users-list/users-list.component.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "users-list.component.html",
+                "to_name": "changePage",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "users-list.component.html",
+                "to_name": "route",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "users-list.component.html",
+                "to_name": "choseStore",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Module",
+                "from_name": "users-list.component.html",
+                "to_name": "users-list.component.ts",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "src/app/pages/user-management/users-list/users-list.component.ts"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Angular Component",
+                "from_name": "users-list.component.html",
+                "to_name": "PaginatorComponent",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "src/app/pages/shared/components/paginator/paginator.component.ts"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Angular Component",
+                "from_name": "users-list.component.html",
+                "to_name": "storeAutoCompleteComponent",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "src/app/pages/custom-component/store-autocomplete/store-autocomplete.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 3
+      }
+    ]
+  }
+}

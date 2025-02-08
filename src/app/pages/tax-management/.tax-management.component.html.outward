@@ -1,0 +1,11 @@
+{
+  "main facts about source code file [src/app/pages/tax-management/tax-management.component.html]": {
+    "00. file [src/app/pages/tax-management/tax-management.component.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 0
+      }
+    ]
+  }
+}

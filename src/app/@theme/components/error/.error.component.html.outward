@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [src/app/@theme/components/error/error.component.html]": {
+    "00. file [src/app/@theme/components/error/error.component.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "error.component.html",
+                "to_name": "goToHome",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Module",
+                "from_name": "error.component.html",
+                "to_name": "error.component.ts",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "src/app/@theme/components/error/error.component.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

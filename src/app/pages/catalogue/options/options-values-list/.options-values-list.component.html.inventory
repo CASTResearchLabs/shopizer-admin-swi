@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [src/app/pages/catalogue/options/options-values-list/options-values-list.component.html]": {
+    "00. file [src/app/pages/catalogue/options/options-values-list/options-values-list.component.html] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "HTML Pages",
+            "elements": [
+              {
+                "name": "options-values-list.component.html",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "options-values-list.component.html",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

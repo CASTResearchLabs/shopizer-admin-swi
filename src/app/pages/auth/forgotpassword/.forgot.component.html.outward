@@ -1,0 +1,47 @@
+{
+  "main facts about source code file [src/app/pages/auth/forgotpassword/forgot.component.html]": {
+    "00. file [src/app/pages/auth/forgotpassword/forgot.component.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "forgot.component.html",
+                "to_name": "onSubmit",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "forgot.component.html",
+                "to_name": "onKeyUp",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Module",
+                "from_name": "forgot.component.html",
+                "to_name": "forgot.component.ts",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "forgot.component.html",
+                "to_name": "goToLogin",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "src/app/pages/auth/forgotpassword/forgot.component.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

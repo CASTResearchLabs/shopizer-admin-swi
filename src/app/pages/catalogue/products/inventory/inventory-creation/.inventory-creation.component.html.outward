@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [src/app/pages/catalogue/products/inventory/inventory-creation/inventory-creation.component.html]": {
+    "00. file [src/app/pages/catalogue/products/inventory/inventory-creation/inventory-creation.component.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Angular Component",
+                "from_name": "inventory-creation.component.html",
+                "to_name": "InventoryFormComponent",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "src/app/pages/catalogue/products/inventory/inventory-form/inventory-form.component.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

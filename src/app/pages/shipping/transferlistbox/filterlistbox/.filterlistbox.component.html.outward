@@ -1,0 +1,47 @@
+{
+  "main facts about source code file [src/app/pages/shipping/transferlistbox/filterlistbox/filterlistbox.component.html]": {
+    "00. file [src/app/pages/shipping/transferlistbox/filterlistbox/filterlistbox.component.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "filterlistbox.component.html",
+                "to_name": "selectOrUnselectAll",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "filterlistbox.component.html",
+                "to_name": "onKeydown",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "filterlistbox.component.html",
+                "to_name": "onSelect",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Module",
+                "from_name": "filterlistbox.component.html",
+                "to_name": "filterlistbox.component.ts",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "src/app/pages/shipping/transferlistbox/filterlistbox/filterlistbox.component.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

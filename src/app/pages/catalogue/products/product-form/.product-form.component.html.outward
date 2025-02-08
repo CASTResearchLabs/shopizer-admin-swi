@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [src/app/pages/catalogue/products/product-form/product-form.component.html]": {
+    "00. file [src/app/pages/catalogue/products/product-form/product-form.component.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "product-form.component.html",
+                "to_name": "save",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "product-form.component.html",
+                "to_name": "checkSku",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "product-form.component.html",
+                "to_name": "changeName",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "product-form.component.html",
+                "to_name": "selectLanguage",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Module",
+                "from_name": "product-form.component.html",
+                "to_name": "product-form.component.ts",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 6,
+            "to_file": "src/app/pages/catalogue/products/product-form/product-form.component.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

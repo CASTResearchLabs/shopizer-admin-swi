@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [src/app/pages/catalogue/products/product-creation/product-creation.component.html]": {
+    "00. file [src/app/pages/catalogue/products/product-creation/product-creation.component.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Angular Component",
+                "from_name": "product-creation.component.html",
+                "to_name": "ProductFormComponent",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "src/app/pages/catalogue/products/product-form/product-form.component.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

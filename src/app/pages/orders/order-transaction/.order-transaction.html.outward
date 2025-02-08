@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [src/app/pages/orders/order-transaction/order-transaction.html]": {
+    "00. file [src/app/pages/orders/order-transaction/order-transaction.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "order-transaction.html",
+                "to_name": "cancel",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Module",
+                "from_name": "order-transaction.html",
+                "to_name": "order-transaction.ts",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "src/app/pages/orders/order-transaction/order-transaction.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

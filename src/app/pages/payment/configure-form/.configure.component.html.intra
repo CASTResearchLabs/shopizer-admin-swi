@@ -1,0 +1,11 @@
+{
+  "main facts about source code file [src/app/pages/payment/configure-form/configure.component.html]": {
+    "00. dependencies between elements defined in file [src/app/pages/payment/configure-form/configure.component.html]": [
+      {
+        "calls_between_elements": [],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 0
+      }
+    ]
+  }
+}

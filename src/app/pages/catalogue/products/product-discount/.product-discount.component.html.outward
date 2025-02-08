@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [src/app/pages/catalogue/products/product-discount/product-discount.component.html]": {
+    "00. file [src/app/pages/catalogue/products/product-discount/product-discount.component.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "product-discount.component.html",
+                "to_name": "rebateSelected",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "product-discount.component.html",
+                "to_name": "percentageSelected",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "product-discount.component.html",
+                "to_name": "discountSelected",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Module",
+                "from_name": "product-discount.component.html",
+                "to_name": "product-discount.component.ts",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "Typescript Method",
+                "from_name": "product-discount.component.html",
+                "to_name": "save",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "src/app/pages/catalogue/products/product-discount/product-discount.component.ts"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}
