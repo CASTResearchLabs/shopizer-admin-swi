@@ -14,8 +14,8 @@
               }
             ],
             "comment": "",
-            "nb_calls_between_elements": 1,
-            "to_file": "src/app/app.component.ts"
+            "to_file": "src/app/app.component.ts",
+            "nb_calls_between_elements": 1
           }
         ],
         "files_list_comment": "",

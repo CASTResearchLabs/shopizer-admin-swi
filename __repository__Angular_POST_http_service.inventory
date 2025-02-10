@@ -1,0 +1,175 @@
+{
+  "main facts about type [Angular POST http service]": {
+    "00. samples of [Angular POST http service] element type in application [sas]": {
+      "elements": [
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v1/private/store/",
+          "nb_callers": 2,
+          "used_in_graphs": 4,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v1/private/user/",
+          "nb_callers": 2,
+          "used_in_graphs": 3,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v1/private/user/unique/",
+          "nb_callers": 2,
+          "used_in_graphs": 3,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v1/private/category/",
+          "nb_callers": 2,
+          "used_in_graphs": 2,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v1/private/manufacturer/",
+          "nb_callers": 2,
+          "used_in_graphs": 2,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v1/private/product/inventory/",
+          "nb_callers": 2,
+          "used_in_graphs": 2,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v1/private/product/{}/attribute/",
+          "nb_callers": 2,
+          "used_in_graphs": 2,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v1/private/product/{}/group/{}/",
+          "nb_callers": 2,
+          "used_in_graphs": 2,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v2/private/product/definition/",
+          "nb_callers": 2,
+          "used_in_graphs": 2,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.postShipping/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "private/rules/",
+          "nb_callers": 2,
+          "used_in_graphs": 1,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v1/private/catalog/",
+          "nb_callers": 2,
+          "used_in_graphs": 1,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.postWithStoreParam/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v1/private/content/",
+          "nb_callers": 2,
+          "used_in_graphs": 1,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v1/private/content/box/",
+          "nb_callers": 2,
+          "used_in_graphs": 1,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v1/private/content/page/",
+          "nb_callers": 2,
+          "used_in_graphs": 1,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService",
+          "signature": "",
+          "name": "v1/private/customer/",
+          "nb_callers": 2,
+          "used_in_graphs": 1,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        }
+      ],
+      "total_nb": 43,
+      "elements_list_comment": "Angular POST http service element list is truncated to first 15 items"
+    }
+  }
+}

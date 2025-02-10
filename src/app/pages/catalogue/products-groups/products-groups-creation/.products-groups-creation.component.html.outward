@@ -21,8 +21,8 @@
               }
             ],
             "comment": "",
-            "nb_calls_between_elements": 2,
-            "to_file": "src/app/pages/catalogue/products-groups/products-groups-creation/products-groups-creation.component.ts"
+            "to_file": "src/app/pages/catalogue/products-groups/products-groups-creation/products-groups-creation.component.ts",
+            "nb_calls_between_elements": 2
           }
         ],
         "files_list_comment": "",

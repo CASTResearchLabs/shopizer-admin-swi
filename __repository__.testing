@@ -1,0 +1,531 @@
+{
+  "main facts about application [sas]": {
+    "00. application [sas] basic stats": {
+      "application_analysis_name": "Onboarding-202502071200",
+      "CRUD_data_access_types": "",
+      "data_sensitivity_levels": [],
+      "nb_source_applications": 0,
+      "nb_elements": 4196,
+      "technology_list": [
+        "angular",
+        "html",
+        "html templates",
+        "javascript",
+        "typescript"
+      ],
+      "application_analysis_date": "2025-02-07T12:00:00",
+      "nb_links": 7466,
+      "linked_application_stats": {
+        "called_applications": {
+          "nb_applications": 1,
+          "nb_links": 1
+        },
+        "calling_applications": {
+          "nb_applications": 0,
+          "nb_links": 0
+        }
+      }
+    },
+    "01. application [sas] graphs representing semantic aggregations": [
+      {
+        "nb_graphs": 46,
+        "samples_list_comment": "",
+        "graph_nature": "Package",
+        "samples": [
+          {
+            "name": "@nebular/auth",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@nebular/security",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@angular/platform-browser",
+            "starting_element_type": ""
+          },
+          {
+            "name": "angular-tree-component",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@angular/common",
+            "starting_element_type": ""
+          },
+          {
+            "name": "angular2-query-builder",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@nebular/eva-icons",
+            "starting_element_type": ""
+          },
+          {
+            "name": "libphonenumber-js",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@angular/forms",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@angular/platform-browser-dynamic",
+            "starting_element_type": ""
+          },
+          {
+            "name": "rxjs",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@ng-bootstrap/ng-bootstrap",
+            "starting_element_type": ""
+          },
+          {
+            "name": "angular2-chartjs",
+            "starting_element_type": ""
+          },
+          {
+            "name": "ngx-toastr",
+            "starting_element_type": ""
+          },
+          {
+            "name": "web-animations-js",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@ngx-translate/core",
+            "starting_element_type": ""
+          },
+          {
+            "name": "ngx-summernote",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@ngx-translate/http-loader",
+            "starting_element_type": ""
+          },
+          {
+            "name": "classlist.js",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@nebular/theme",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@angular/core",
+            "starting_element_type": ""
+          },
+          {
+            "name": "ngx-dropzone",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@angular/router",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@angular/common",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@angular/core",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@angular/forms",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@angular/platform-browser",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@angular/platform-browser-dynamic",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@angular/router",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@nebular/auth",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@nebular/eva-icons",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@nebular/security",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@nebular/theme",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@ng-bootstrap/ng-bootstrap",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@ngx-translate/core",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@ngx-translate/http-loader",
+            "starting_element_type": ""
+          },
+          {
+            "name": "angular-tree-component",
+            "starting_element_type": ""
+          },
+          {
+            "name": "angular2-chartjs",
+            "starting_element_type": ""
+          },
+          {
+            "name": "angular2-query-builder",
+            "starting_element_type": ""
+          },
+          {
+            "name": "classlist.js",
+            "starting_element_type": ""
+          },
+          {
+            "name": "libphonenumber-js",
+            "starting_element_type": ""
+          },
+          {
+            "name": "ngx-dropzone",
+            "starting_element_type": ""
+          },
+          {
+            "name": "ngx-summernote",
+            "starting_element_type": ""
+          },
+          {
+            "name": "ngx-toastr",
+            "starting_element_type": ""
+          },
+          {
+            "name": "rxjs",
+            "starting_element_type": ""
+          },
+          {
+            "name": "web-animations-js",
+            "starting_element_type": ""
+          }
+        ]
+      },
+      {
+        "nb_graphs": 127,
+        "samples_list_comment": "Transaction list is truncated to first 50 items",
+        "graph_nature": "Transaction",
+        "samples": [
+          {
+            "name": "ProductsListComponent",
+            "full_name": "src/app/pages/catalogue/products/products-list/products-list.component.ts.ProductsListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 355
+          },
+          {
+            "name": "UsersListComponent",
+            "full_name": "src/app/pages/user-management/users-list/users-list.component.ts.UsersListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 350
+          },
+          {
+            "name": "TypesListComponent",
+            "full_name": "src/app/pages/catalogue/types/types-list/types-list.component.ts.TypesListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 348
+          },
+          {
+            "name": "ListComponent",
+            "full_name": "src/app/pages/customers/customer/list.component.ts.ListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 345
+          },
+          {
+            "name": "TaxRateListComponent",
+            "full_name": "src/app/pages/tax-management/tax-rate/list.component.ts.TaxRateListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 344
+          },
+          {
+            "name": "TaxClassListComponent",
+            "full_name": "src/app/pages/tax-management/tax-class/list.component.ts.TaxClassListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 344
+          },
+          {
+            "name": "BoxesComponent",
+            "full_name": "src/app/pages/content/boxes/boxes.component.ts.BoxesComponent",
+            "starting_element_type": "Angular Component",
+            "size": 342
+          },
+          {
+            "name": "RulesListComponent",
+            "full_name": "src/app/pages/shipping/rules/rules-list.component.ts.RulesListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 342
+          },
+          {
+            "name": "PageComponent",
+            "full_name": "src/app/pages/content/pages/page.component.ts.PageComponent",
+            "starting_element_type": "Angular Component",
+            "size": 341
+          },
+          {
+            "name": "CataloguesListComponent",
+            "full_name": "src/app/pages/catalogue/catalogues/catalogues-list/catalogues-list.component.ts.CataloguesListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 340
+          },
+          {
+            "name": "OrderListComponent",
+            "full_name": "src/app/pages/orders/order-list/order-list.component.ts.OrderListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 339
+          },
+          {
+            "name": "OptionsListComponent",
+            "full_name": "src/app/pages/catalogue/options/options-list/options-list.component.ts.OptionsListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 338
+          },
+          {
+            "name": "OptionsValuesListComponent",
+            "full_name": "src/app/pages/catalogue/options/options-values-list/options-values-list.component.ts.OptionsValuesListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 338
+          },
+          {
+            "name": "BrandsListComponent",
+            "full_name": "src/app/pages/catalogue/brands/brands-list/brands-list.component.ts.BrandsListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 335
+          },
+          {
+            "name": "ProductProperties",
+            "full_name": "src/app/pages/catalogue/products/property/list/product-property.component.ts.ProductProperties",
+            "starting_element_type": "Angular Component",
+            "size": 298
+          },
+          {
+            "name": "CategoriesListComponent",
+            "full_name": "src/app/pages/catalogue/categories/categories-list/categories-list.component.ts.CategoriesListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 292
+          },
+          {
+            "name": "StoresListComponent",
+            "full_name": "src/app/pages/store-management/stores-list/stores-list.component.ts.StoresListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 290
+          },
+          {
+            "name": "PackagesListComponent",
+            "full_name": "src/app/pages/shipping/packages/packages-list.component.ts.PackagesListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 289
+          },
+          {
+            "name": "ManageInventoryComponent",
+            "full_name": "src/app/pages/catalogue/products/inventory/manage-inventory/manage-inventory.component.ts.ManageInventoryComponent",
+            "starting_element_type": "Angular Component",
+            "size": 289
+          },
+          {
+            "name": "ProductAttributesComponent",
+            "full_name": "src/app/pages/catalogue/products/attribute/product-attributes/product-attributes.component.ts.ProductAttributesComponent",
+            "starting_element_type": "Angular Component",
+            "size": 289
+          },
+          {
+            "name": "RetailerStoresComponent",
+            "full_name": "src/app/pages/store-management/retailer-stores/retailer-stores.component.ts.RetailerStoresComponent",
+            "starting_element_type": "Angular Component",
+            "size": 275
+          },
+          {
+            "name": "PricesListComponent",
+            "full_name": "src/app/pages/catalogue/products/price/prices-list/prices-list.component.ts.PricesListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 275
+          },
+          {
+            "name": "RetailerListComponent",
+            "full_name": "src/app/pages/store-management/retailer-list/retailer-list.component.ts.RetailerListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 270
+          },
+          {
+            "name": "GroupsListComponent",
+            "full_name": "src/app/pages/catalogue/products-groups/groups-list/groups-list.component.ts.GroupsListComponent",
+            "starting_element_type": "Angular Component",
+            "size": 216
+          },
+          {
+            "name": "ConfigurationComponent",
+            "full_name": "src/app/pages/shipping/configuration/configuration.component.ts.ConfigurationComponent",
+            "starting_element_type": "Angular Component",
+            "size": 124
+          },
+          {
+            "name": "InventoryDetailsComponent",
+            "full_name": "src/app/pages/catalogue/products/inventory/inventory-details/inventory-details.component.ts.InventoryDetailsComponent",
+            "starting_element_type": "Angular Component",
+            "size": 96
+          },
+          {
+            "name": "UserProfileComponent",
+            "full_name": "src/app/pages/user-management/user-profile/user-profile.component.ts.UserProfileComponent",
+            "starting_element_type": "Angular Component",
+            "size": 95
+          },
+          {
+            "name": "UserDetailsComponent",
+            "full_name": "src/app/pages/user-management/user-details/user-details.component.ts.UserDetailsComponent",
+            "starting_element_type": "Angular Component",
+            "size": 95
+          },
+          {
+            "name": "CreateNewUserComponent",
+            "full_name": "src/app/pages/user-management/create-new-user/create-new-user.component.ts.CreateNewUserComponent",
+            "starting_element_type": "Angular Component",
+            "size": 92
+          },
+          {
+            "name": "InventoryCreationComponent",
+            "full_name": "src/app/pages/catalogue/products/inventory/inventory-creation/inventory-creation.component.ts.InventoryCreationComponent",
+            "starting_element_type": "Angular Component",
+            "size": 92
+          },
+          {
+            "name": "CategoryDetailComponent",
+            "full_name": "src/app/pages/catalogue/categories/category-detail/category-detail.component.ts.CategoryDetailComponent",
+            "starting_element_type": "Angular Component",
+            "size": 87
+          },
+          {
+            "name": "StoreDetailsComponent",
+            "full_name": "src/app/pages/store-management/store-details/store-details.component.ts.StoreDetailsComponent",
+            "starting_element_type": "Angular Component",
+            "size": 86
+          },
+          {
+            "name": "RetailerComponent",
+            "full_name": "src/app/pages/store-management/retailer/retailer.component.ts.RetailerComponent",
+            "starting_element_type": "Angular Component",
+            "size": 86
+          },
+          {
+            "name": "StoreDetailInfoComponent",
+            "full_name": "src/app/pages/store-management/store-detail-info/store-detail-info.component.ts.StoreDetailInfoComponent",
+            "starting_element_type": "Angular Component",
+            "size": 85
+          },
+          {
+            "name": "CategoryCreationComponent",
+            "full_name": "src/app/pages/catalogue/categories/category-creation/category-creation.component.ts.CategoryCreationComponent",
+            "starting_element_type": "Angular Component",
+            "size": 82
+          },
+          {
+            "name": "StoreCreationComponent",
+            "full_name": "src/app/pages/store-management/store-creation/store-creation.component.ts.StoreCreationComponent",
+            "starting_element_type": "Angular Component",
+            "size": 81
+          },
+          {
+            "name": "ProductDetailsComponent",
+            "full_name": "src/app/pages/catalogue/products/product-details/product-details.component.ts.ProductDetailsComponent",
+            "starting_element_type": "Angular Component",
+            "size": 81
+          },
+          {
+            "name": "OrderDetailsComponent",
+            "full_name": "src/app/pages/orders/order-details/order-details.component.ts.OrderDetailsComponent",
+            "starting_element_type": "Angular Component",
+            "size": 81
+          },
+          {
+            "name": "ProductCreationComponent",
+            "full_name": "src/app/pages/catalogue/products/product-creation/product-creation.component.ts.ProductCreationComponent",
+            "starting_element_type": "Angular Component",
+            "size": 77
+          },
+          {
+            "name": "OptionSetComponent",
+            "full_name": "src/app/pages/catalogue/options/options-set/option-set.component.ts.OptionSetComponent",
+            "starting_element_type": "Angular Component",
+            "size": 71
+          },
+          {
+            "name": "AddComponent",
+            "full_name": "src/app/pages/customers/customer/add.component.ts.AddComponent",
+            "starting_element_type": "Angular Component",
+            "size": 68
+          },
+          {
+            "name": "ProductsImagesComponent",
+            "full_name": "src/app/pages/catalogue/products/products-images/products-images.component.ts.ProductsImagesComponent",
+            "starting_element_type": "Angular Component",
+            "size": 64
+          },
+          {
+            "name": "ProductGroupFormComponent",
+            "full_name": "src/app/pages/catalogue/products-groups/product-group-form/product-group-form.component.ts.ProductGroupFormComponent",
+            "starting_element_type": "Angular Component",
+            "size": 61
+          },
+          {
+            "name": "TaxRateAddComponent",
+            "full_name": "src/app/pages/tax-management/tax-rate/add.component.ts.TaxRateAddComponent",
+            "starting_element_type": "Angular Component",
+            "size": 61
+          },
+          {
+            "name": "OptionValuesComponent",
+            "full_name": "src/app/pages/catalogue/options/option-values/option-values.component.ts.OptionValuesComponent",
+            "starting_element_type": "Angular Component",
+            "size": 57
+          },
+          {
+            "name": "ProductPropertyForm",
+            "full_name": "src/app/pages/catalogue/products/property/form/product-property-form.component.ts.ProductPropertyForm",
+            "starting_element_type": "Angular Component",
+            "size": 57
+          },
+          {
+            "name": "TypeDetailsComponent",
+            "full_name": "src/app/pages/catalogue/types/type-details/type-details.component.ts.TypeDetailsComponent",
+            "starting_element_type": "Angular Component",
+            "size": 57
+          },
+          {
+            "name": "RulesComponent",
+            "full_name": "src/app/pages/shipping/rules/rules.component.ts.RulesComponent",
+            "starting_element_type": "Angular Component",
+            "size": 56
+          },
+          {
+            "name": "AddPageComponent",
+            "full_name": "src/app/pages/content/pages/add-page.component.ts.AddPageComponent",
+            "starting_element_type": "Angular Component",
+            "size": 54
+          },
+          {
+            "name": "BrandDetailsComponent",
+            "full_name": "src/app/pages/catalogue/brands/brand-details/brand-details.component.ts.BrandDetailsComponent",
+            "starting_element_type": "Angular Component",
+            "size": 53
+          }
+        ]
+      }
+    ],
+    "02. findings about application [sas] main elements": []
+  }
+}

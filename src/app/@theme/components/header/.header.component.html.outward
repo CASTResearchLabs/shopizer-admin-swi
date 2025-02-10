@@ -28,8 +28,8 @@
               }
             ],
             "comment": "",
-            "nb_calls_between_elements": 3,
-            "to_file": "src/app/@theme/components/header/header.component.ts"
+            "to_file": "src/app/@theme/components/header/header.component.ts",
+            "nb_calls_between_elements": 3
           }
         ],
         "files_list_comment": "",

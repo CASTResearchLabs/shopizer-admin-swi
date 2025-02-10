@@ -1,0 +1,59 @@
+{
+  "main facts about source code file [protractor.conf.js]": {
+    "00. file [protractor.conf.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "onPrepare",
+                "signature": ""
+              },
+              {
+                "name": "print",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "protractor.conf.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "protractor.conf.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "protractor.conf.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

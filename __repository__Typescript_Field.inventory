@@ -1,0 +1,280 @@
+{
+  "main facts about type [Typescript Field]": {
+    "00. samples of [Typescript Field] element type in application [sas]": {
+      "elements": [
+        {
+          "full_name": "src/app/pages/catalogue/brands/brands-list/brands-list.component.ts.BrandsListComponent.params",
+          "signature": "",
+          "name": "params",
+          "nb_callers": 5,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "6"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/catalogue/catalogues/catalogues-list/catalogues-list.component.ts.CataloguesListComponent.params",
+          "signature": "",
+          "name": "params",
+          "nb_callers": 5,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "6"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/content/pages/page.component.ts.PageComponent.params",
+          "signature": "",
+          "name": "params",
+          "nb_callers": 5,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "6"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/catalogue/products/products-list/products-list.component.ts.ProductsListComponent.params",
+          "signature": "",
+          "name": "params",
+          "nb_callers": 9,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "1"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/catalogue/products/inventory/manage-inventory/manage-inventory.component.ts.ManageInventoryComponent.params",
+          "signature": "",
+          "name": "params",
+          "nb_callers": 4,
+          "used_in_graphs": 23,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "5"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/catalogue/categories/categories-list/categories-list.component.ts.CategoriesListComponent.params",
+          "signature": "",
+          "name": "params",
+          "nb_callers": 9,
+          "used_in_graphs": 23,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "1"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/content/pages/page.component.ts.PageComponent.loadingList",
+          "signature": "",
+          "name": "loadingList",
+          "nb_callers": 8,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "1"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/tax-management/tax-class/list.component.ts.TaxClassListComponent.loadingList",
+          "signature": "",
+          "name": "loadingList",
+          "nb_callers": 8,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "1"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/content/boxes/boxes.component.ts.BoxesComponent.params",
+          "signature": "",
+          "name": "params",
+          "nb_callers": 7,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "1"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/customers/customer/list.component.ts.ListComponent.params",
+          "signature": "",
+          "name": "params",
+          "nb_callers": 7,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "1"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/orders/order-list/order-list.component.ts.OrderListComponent.params",
+          "signature": "",
+          "name": "params",
+          "nb_callers": 7,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "1"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/user-management/users-list/users-list.component.ts.UsersListComponent.params",
+          "signature": "",
+          "name": "params",
+          "nb_callers": 7,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "1"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/catalogue/products/products-list/products-list.component.ts.ProductsListComponent.currentPage",
+          "signature": "",
+          "name": "currentPage",
+          "nb_callers": 6,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "1"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/catalogue/types/types-list/types-list.component.ts.TypesListComponent.currentPage",
+          "signature": "",
+          "name": "currentPage",
+          "nb_callers": 6,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "1"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/user-management/users-list/users-list.component.ts.UsersListComponent.currentPage",
+          "signature": "",
+          "name": "currentPage",
+          "nb_callers": 6,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "1"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 0
+        }
+      ],
+      "total_nb": 967,
+      "elements_list_comment": "Typescript Field element list is truncated to first 15 items"
+    }
+  }
+}

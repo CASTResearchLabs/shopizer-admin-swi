@@ -1,0 +1,547 @@
+{
+  "main facts about application [sas]": {
+    "00. application [sas] basic stats": {
+      "application_analysis_name": "Onboarding-202502071200",
+      "CRUD_data_access_types": "",
+      "data_sensitivity_levels": [],
+      "nb_source_applications": 0,
+      "nb_elements": 4196,
+      "technology_list": [
+        "angular",
+        "html",
+        "html templates",
+        "javascript",
+        "typescript"
+      ],
+      "application_analysis_date": "2025-02-07T12:00:00",
+      "nb_links": 7466,
+      "linked_application_stats": {
+        "called_applications": {
+          "nb_applications": 1,
+          "nb_links": 1
+        },
+        "calling_applications": {
+          "nb_applications": 0,
+          "nb_links": 0
+        }
+      }
+    },
+    "01. applications whose services are called by application [sas]": [
+      {
+        "total_nb_links": 189,
+        "links": [
+          {
+            "technologies": "Angular to Spring Web Services",
+            "protocol": "HTTP/REST",
+            "from_to": [
+              {
+                "from_element": {
+                  "name": "v1/store/signup/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/store/signup/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/marketplace/MarketPlaceApi.java/api/v1/PORT/POST/api/v1/store/signup/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/user/DEFAULT/password/{}/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/user/{}/password/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/user/ResetUserPasswordApi.java/api/v1/PORT/POST/api/v1/user/{}/password/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/user/password/reset/request/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/user/password/reset/request/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/user/ResetUserPasswordApi.java/api/v1/PORT/POST/api/v1/user/password/reset/request/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/login/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/login/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/user/AuthenticateUserApi.java/api/v1/PORT/POST/api/v1/private/login/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/manufacturer/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/manufacturer/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductManufacturerApi.java/api/v1/PORT/POST/api/v1/private/manufacturer/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/catalog/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/catalog/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/catalog/CatalogApi.java/api/v1/PORT/POST/api/v1/private/catalog/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/category/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/category/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/category/CategoryApi.java/api/v1/PORT/POST/api/v1/private/category/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/option/value/{}/image/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/option/value/{}/image/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductAttributeOptionApi.java/api/v1/PORT/POST/api/v1/private/product/option/value/{}/image/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/option/value/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/option/value/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductAttributeOptionApi.java/api/v1/PORT/POST/api/v1/private/product/option/value/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/property/set/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/property/set/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductPropertySetApi.java/api/v1/PORT/POST/api/v1/private/product/property/set/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/option/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/option/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductAttributeOptionApi.java/api/v1/PORT/POST/api/v1/private/product/option/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v2/private/product/variation/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v2/private/product/variation/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductVariationApi.java/api/v2/PORT/POST/api/v2/private/product/variation/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/inventory/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductApi.java/api/v1/PORT/ANY/api/v1/private/product/{}/_1"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/inventory/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductApi.java/api/v1/PORT/ANY/api/v1/private/product/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/{}/attribute/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/{}/attribute/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductAttributeOptionApi.java/api/v1/PORT/POST/api/v1/private/product/{}/attribute/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/{}/category/{}/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/{}/category/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductApi.java/api/v1/PORT/POST/api/v1/private/product/{}/category/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v2/private/product/definition/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v2/private/product/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/ANY/api/v2/private/product/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/group/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductApi.java/api/v1/PORT/ANY/api/v1/private/product/{}/_1"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/group/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductApi.java/api/v1/PORT/ANY/api/v1/private/product/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/content/box/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/content/box/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentApi.java/api/v1/PORT/POST/api/v1/private/content/box/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/file/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/file/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentApi.java/api/v1/PORT/POST/api/v1/private/file/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/content/page/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/content/page/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentApi.java/api/v1/PORT/POST/api/v1/private/content/page/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/customer/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/customer/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/POST/api/v1/private/customer/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/orders/{}/capture/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/orders/{}/capture/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderPaymentApi.java/api/v1/PORT/POST/api/v1/private/orders/{}/capture/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/orders/{}/refund/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/orders/{}/refund/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderPaymentApi.java/api/v1/PORT/POST/api/v1/private/orders/{}/refund/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/orders/{}/history/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/orders/{}/history/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderStatusHistoryApi.java/api/v1/PORT/POST/api/v1/private/orders/{}/history/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/modules/payment/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/modules/payment/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/POST/api/v1/private/modules/payment/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/user/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/user/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/user/UserApi.java/api/v1/PORT/POST/api/v1/private/user/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/user/unique/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/user/unique/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/user/UserApi.java/api/v1/PORT/POST/api/v1/private/user/unique/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/modules/shipping/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/modules/shipping/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shipping/ShippingConfigurationApi.java/api/v1/PORT/POST/api/v1/private/modules/shipping/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/shipping/package/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/shipping/package/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shipping/ShippingConfigurationApi.java/api/v1/PORT/POST/api/v1/private/shipping/package/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/shipping/origin?store\u003d{}",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/shipping/origin/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shipping/ShippingConfigurationApi.java/api/v1/PORT/POST/api/v1/private/shipping/origin/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/shipping/expedition?store\u003d{}",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/shipping/expedition/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shipping/ShippingExpeditionApi.java/api/v1/PORT/POST/api/v1/private/shipping/expedition/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/store/{}/marketing/logo/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/store/{}/marketing/logo/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/POST/api/v1/private/store/{}/marketing/logo/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/store/{}/marketing/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/store/{}/marketing/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/POST/api/v1/private/store/{}/marketing/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/store/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/store/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/POST/api/v1/private/store/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/tax/rate/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/tax/rate/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/tax/TaxRatesApi.java/api/v1/PORT/POST/api/v1/private/tax/rate/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/tax/class/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.post/CAST_TS_PostNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/tax/class/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/tax/TaxClassApi.java/api/v1/PORT/POST/api/v1/private/tax/class/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/catalog/{}/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/catalog/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/catalog/CatalogApi.java/api/v1/PORT/ANY/api/v1/private/catalog/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/catalog/{}/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/catalog/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/catalog/CatalogApi.java/api/v1/PORT/GET/api/v1/private/catalog/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/catalogs/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/catalogs/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/catalog/CatalogApi.java/api/v1/PORT/GET/api/v1/private/catalogs/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/category?count\u003d50\u0026page\u003d0\u0026name\u003d{}",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/category/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/category/CategoryApi.java/api/v1/PORT/GET/api/v1/category/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/customer/password/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.put/CAST_TS_PutNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/customer/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/PUT/api/v1/private/customer/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/{}/inventory/{}/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.put/CAST_TS_PutNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/{}/inventory/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductInventoryApi.java/api/v1/PORT/PUT/api/v1/private/product/{}/inventory/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/manufacturer/{}/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.put/CAST_TS_PutNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/manufacturer/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductManufacturerApi.java/api/v1/PORT/PUT/api/v1/private/manufacturer/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/category/{}/move/{}/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.put/CAST_TS_PutNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/category/{}/move/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/category/CategoryApi.java/api/v1/PORT/PUT/api/v1/private/category/{}/move/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/category/{}/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.put/CAST_TS_PutNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/category/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/category/CategoryApi.java/api/v1/PORT/PUT/api/v1/private/category/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/option/value/{}/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.put/CAST_TS_PutNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/option/value/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductAttributeOptionApi.java/api/v1/PORT/PUT/api/v1/private/product/option/value/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/property/set/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.put/CAST_TS_PutNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/property/set/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductPropertySetApi.java/api/v1/PORT/PUT/api/v1/private/product/property/set/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "v1/private/product/option/{}/",
+                  "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.put/CAST_TS_PutNgHttpService"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/option/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductAttributeOptionApi.java/api/v1/PORT/PUT/api/v1/private/product/option/{}/"
+                }
+              }
+            ],
+            "from_to_list_comment": "from/to list is truncated to first 50 items"
+          }
+        ],
+        "links_list_comment": "link list is truncated to first 50 items",
+        "called_application": "s325s"
+      }
+    ],
+    "02. findings about application [sas] main elements": []
+  }
+}

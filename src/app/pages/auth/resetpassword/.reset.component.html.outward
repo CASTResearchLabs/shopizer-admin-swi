@@ -35,8 +35,8 @@
               }
             ],
             "comment": "",
-            "nb_calls_between_elements": 4,
-            "to_file": "src/app/pages/auth/resetpassword/reset.component.ts"
+            "to_file": "src/app/pages/auth/resetpassword/reset.component.ts",
+            "nb_calls_between_elements": 4
           }
         ],
         "files_list_comment": "",

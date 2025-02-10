@@ -1,0 +1,175 @@
+{
+  "main facts about type [Angular GET http service]": {
+    "00. samples of [Angular GET http service] element type in application [sas]": {
+      "elements": [
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/private/user/profile/",
+          "nb_callers": 2,
+          "used_in_graphs": 48,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/private/users/",
+          "nb_callers": 2,
+          "used_in_graphs": 43,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/private/stores/names/",
+          "nb_callers": 2,
+          "used_in_graphs": 31,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/private/stores/",
+          "nb_callers": 2,
+          "used_in_graphs": 30,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/category/",
+          "nb_callers": 2,
+          "used_in_graphs": 28,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/private/product/options/",
+          "nb_callers": 2,
+          "used_in_graphs": 28,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/private/product/options/values/",
+          "nb_callers": 2,
+          "used_in_graphs": 28,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v2/products/",
+          "nb_callers": 2,
+          "used_in_graphs": 27,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/private/catalogs/",
+          "nb_callers": 2,
+          "used_in_graphs": 25,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/private/products/types/",
+          "nb_callers": 2,
+          "used_in_graphs": 25,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/private/tax/class/",
+          "nb_callers": 2,
+          "used_in_graphs": 25,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/private/content/boxes/",
+          "nb_callers": 2,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/private/content/pages/",
+          "nb_callers": 2,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/private/customers/",
+          "nb_callers": 2,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/app/pages/shared/services/crud.service.ts.CrudService.get/CAST_TS_GetNgHttpService",
+          "signature": "",
+          "name": "v1/private/manufacturers/",
+          "nb_callers": 2,
+          "used_in_graphs": 24,
+          "main_properties": [
+            {}
+          ],
+          "nb_callees": 0
+        }
+      ],
+      "total_nb": 123,
+      "elements_list_comment": "Angular GET http service element list is truncated to first 15 items"
+    }
+  }
+}

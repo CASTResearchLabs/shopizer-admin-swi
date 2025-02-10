@@ -21,8 +21,8 @@
               }
             ],
             "comment": "",
-            "nb_calls_between_elements": 2,
-            "to_file": "src/app/@theme/components/error/error.component.ts"
+            "to_file": "src/app/@theme/components/error/error.component.ts",
+            "nb_calls_between_elements": 2
           }
         ],
         "files_list_comment": "",

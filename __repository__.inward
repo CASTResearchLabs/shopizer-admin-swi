@@ -1,0 +1,31 @@
+{
+  "main facts about application [sas]": {
+    "00. application [sas] basic stats": {
+      "application_analysis_name": "Onboarding-202502071200",
+      "CRUD_data_access_types": "",
+      "data_sensitivity_levels": [],
+      "nb_source_applications": 0,
+      "nb_elements": 4196,
+      "technology_list": [
+        "angular",
+        "html",
+        "html templates",
+        "javascript",
+        "typescript"
+      ],
+      "application_analysis_date": "2025-02-07T12:00:00",
+      "nb_links": 7466,
+      "linked_application_stats": {
+        "called_applications": {
+          "nb_applications": 1,
+          "nb_links": 1
+        },
+        "calling_applications": {
+          "nb_applications": 0,
+          "nb_links": 0
+        }
+      }
+    },
+    "01. findings about application [sas] main elements": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "main facts about source code file [protractor.conf.js]": {
+    "00. dependencies between elements defined in file [protractor.conf.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "protractor.conf.js",
+            "to_name": "protractor.conf.js",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 1
+      }
+    ]
+  }
+}

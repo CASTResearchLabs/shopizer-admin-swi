@@ -1,0 +1,220 @@
+{
+  "main facts about type [Typescript Class]": {
+    "00. samples of [Typescript Class] element type in application [sas]": {
+      "elements": [
+        {
+          "full_name": "src/app/pages/store-management/store-form/store-form.component.ts.StoreFormComponent",
+          "signature": "",
+          "name": "StoreFormComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "344"
+            }
+          ],
+          "nb_callees": 22
+        },
+        {
+          "full_name": "src/app/pages/user-management/user-form/user-form.component.ts.UserFormComponent",
+          "signature": "",
+          "name": "UserFormComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "335"
+            }
+          ],
+          "nb_callees": 18
+        },
+        {
+          "full_name": "src/app/pages/catalogue/products/product-form/product-form.component.ts.ProductFormComponent",
+          "signature": "",
+          "name": "ProductFormComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "368"
+            }
+          ],
+          "nb_callees": 16
+        },
+        {
+          "full_name": "src/app/pages/orders/order-details/order-details.component.ts.OrderDetailsComponent",
+          "signature": "",
+          "name": "OrderDetailsComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "259"
+            }
+          ],
+          "nb_callees": 18
+        },
+        {
+          "full_name": "src/app/pages/catalogue/categories/category-form/category-form.component.ts.CategoryFormComponent",
+          "signature": "",
+          "name": "CategoryFormComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "313"
+            }
+          ],
+          "nb_callees": 13
+        },
+        {
+          "full_name": "src/app/pages/customers/customer/add.component.ts.AddComponent",
+          "signature": "",
+          "name": "AddComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "264"
+            }
+          ],
+          "nb_callees": 15
+        },
+        {
+          "full_name": "src/app/pages/content/boxes/add-box.component.ts.AddBoxComponent",
+          "signature": "",
+          "name": "AddBoxComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "241"
+            }
+          ],
+          "nb_callees": 13
+        },
+        {
+          "full_name": "src/app/pages/shared/services/user.service.ts.UserService",
+          "signature": "",
+          "name": "UserService",
+          "nb_callers": 0,
+          "used_in_graphs": 14,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "99"
+            }
+          ],
+          "nb_callees": 2
+        },
+        {
+          "full_name": "src/app/pages/catalogue/products/attribute/product-attributes/product-attributes.component.ts.ProductAttributesComponent",
+          "signature": "",
+          "name": "ProductAttributesComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "197"
+            }
+          ],
+          "nb_callees": 13
+        },
+        {
+          "full_name": "src/app/pages/catalogue/products/products-list/products-list.component.ts.ProductsListComponent",
+          "signature": "",
+          "name": "ProductsListComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "220"
+            }
+          ],
+          "nb_callees": 11
+        },
+        {
+          "full_name": "src/app/pages/tax-management/tax-rate/list.component.ts.TaxRateListComponent",
+          "signature": "",
+          "name": "TaxRateListComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "201"
+            }
+          ],
+          "nb_callees": 11
+        },
+        {
+          "full_name": "src/app/pages/content/pages/add-page.component.ts.AddPageComponent",
+          "signature": "",
+          "name": "AddPageComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "215"
+            }
+          ],
+          "nb_callees": 10
+        },
+        {
+          "full_name": "src/app/pages/catalogue/options/options-set/option-set.component.ts.OptionSetComponent",
+          "signature": "",
+          "name": "OptionSetComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "214"
+            }
+          ],
+          "nb_callees": 10
+        },
+        {
+          "full_name": "src/app/pages/content/pages/page.component.ts.PageComponent",
+          "signature": "",
+          "name": "PageComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "177"
+            }
+          ],
+          "nb_callees": 11
+        },
+        {
+          "full_name": "src/app/pages/catalogue/categories/categories-list/categories-list.component.ts.CategoriesListComponent",
+          "signature": "",
+          "name": "CategoriesListComponent",
+          "nb_callers": 0,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "200"
+            }
+          ],
+          "nb_callees": 10
+        }
+      ],
+      "total_nb": 286,
+      "elements_list_comment": "Typescript Class element list is truncated to first 15 items"
+    }
+  }
+}
